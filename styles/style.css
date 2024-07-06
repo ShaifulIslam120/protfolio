@@ -1,0 +1,38 @@
+/* nav_item */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.Name{
+    font-weight: 800;
+    font-size: 45px;
+}
+.color{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul
+.dark-2{
+    color: #474747;
+    font-size: 20px;
+}
