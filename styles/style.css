@@ -32,6 +32,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .dark-2{
     color: #474747;
     font-size: 20px;
@@ -68,4 +71,35 @@ nav ul li a{
     background-position: top left, right bottom;
     margin: 50px;
     
+}
+.section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-tittle{
+    font-size: 20px;
+}
+.item-tittles{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
 }
