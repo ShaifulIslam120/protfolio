@@ -23,6 +23,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
@@ -31,8 +32,40 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
-nav ul
 .dark-2{
     color: #474747;
     font-size: 20px;
+}
+.btn-primary{
+    background-color:#FD6E0A ;
+    color: white;
+    font-size: 20px;
+    padding: 18px 36px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+   
+}
+.greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.Hardy{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-discription{
+    font-size: 18;
+}
+.header{
+    background-image: url("/images/developer.png"),url("/images/header_bg.png") ;
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    margin: 50px;
+    
 }
