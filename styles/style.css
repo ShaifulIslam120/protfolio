@@ -80,7 +80,7 @@ nav ul li a{
 .section-description{
     font-size: 18px;
     color: #757575;
-    padding: 90px 130px;
+    padding: 65px 130px;
 }
 .about{
     border-radius: 10px;
@@ -135,6 +135,7 @@ main{
 .resume-container{
     display: flex;
     gap: 24px;
+    padding: 30px;
 }
 .resume-colmn-tittle{
     font-size: 30px;
@@ -158,4 +159,35 @@ main{
 .experience-discrpition{
     font-size: 16px;
     color: #757575;
+}
+.dwn-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.footr-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.foter-description{
+    font-size: 18px;
+    color: #757575;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-comn{
+    width: 50%;
+}
+footer input[type="text"] ,footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 24px;
 }
