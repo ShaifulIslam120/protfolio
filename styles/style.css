@@ -128,3 +128,34 @@ main{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px  #000000;
 }
+.section-tittle{
+    padding-top: 50px;
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-colmn-tittle{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.dark-1{
+    color: #474747;
+}
+.experience-tittle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-subtittle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+
+
+}
+.experience-discrpition{
+    font-size: 16px;
+    color: #757575;
+}
